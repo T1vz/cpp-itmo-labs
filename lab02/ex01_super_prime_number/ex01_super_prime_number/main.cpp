@@ -2,21 +2,21 @@
 
 using namespace std;
 
-bool isPrime(int num) {
-	if (num < 2) {
+bool isPrime(int num) { // Checking if number isPrime
+	if (num < 2) { // 2 - always prime number
 		return false;
 	}
 
 	for (int i = 2; i <= num / 2; i++)
 	{
-		if (num % i == 0) {
+		if (num % i == 0) { // if number dividing to another number and not 1 
 			return false;
 		}
 	}
 	return true;
 }
 
-int primePos(int num) {
+int primePos(int num) { // calculating position of prime number of all prime numbers
 	if (!isPrime(num)) {
 		return 0;
 	}
