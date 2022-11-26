@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\Study\cpp\lab07\ex03_quad_eq_tuple\ex03_quad_eq_tuple\main.cpp(24,20): warning C4101: x1: неиспользованная локальная переменная
+D:\Study\cpp\lab07\ex03_quad_eq_tuple\ex03_quad_eq_tuple\main.cpp(24,24): warning C4101: x2: неиспользованная локальная переменная
+  ex03_quad_eq_tuple.vcxproj -> D:\Study\cpp\lab07\ex03_quad_eq_tuple\x64\Debug\ex03_quad_eq_tuple.exe
