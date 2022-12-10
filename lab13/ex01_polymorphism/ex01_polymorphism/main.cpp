@@ -19,9 +19,9 @@ int main()
 	scores.push_back(3);
 	scores.push_back(3);
 
-	student* stud = new student("Petrov", "Ivan", "Alekseevich", scores);
+	human* stud = new student("Petrov", "Ivan", "Alekseevich", scores);
 	unsigned int teacher_work_time = 40;
-	teacher* tch = new teacher("Sergeev", "Dmitriy", "Sergeevich", 40);
+	human* tch = new teacher("Sergeev", "Dmitriy", "Sergeevich", 40);
 
 	stud->printInfo();
 	tch->printInfo();

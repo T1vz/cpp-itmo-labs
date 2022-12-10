@@ -21,7 +21,7 @@ public:
 		return full_name.str();
 	}
 
-	void printInfo() {}
+	virtual void printInfo() {}
 private:
 	std::string name; // имя
 	std::string last_name; // фамилия
