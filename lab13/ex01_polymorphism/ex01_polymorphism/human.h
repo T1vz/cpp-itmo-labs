@@ -1,9 +1,8 @@
 #include <string>
 #include <sstream>
-#pragma once /* Защита от двойного подключения заголовочного файла */
+#pragma once
 class human {
 public:
-	// Конструктор класса human
 	human(std::string last_name, std::string name, std::string
 		second_name)
 	{
@@ -11,7 +10,6 @@ public:
 		this->name = name;
 		this->second_name = second_name;
 	}
-	// Получение ФИО человека
 	std::string get_full_name()
 	{
 		std::ostringstream full_name;
@@ -23,7 +21,7 @@ public:
 
 	virtual void printInfo() {}
 private:
-	std::string name; // имя
-	std::string last_name; // фамилия
-	std::string second_name; // отчество
+	std::string name;
+	std::string last_name;
+	std::string second_name;
 };
