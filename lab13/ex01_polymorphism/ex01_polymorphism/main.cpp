@@ -6,9 +6,7 @@
 
 int main()
 {
-	// Оценкистудента
 	std::vector<int> scores;
-	// Добавление оценок студента в вектор
 	scores.push_back(5);
 	scores.push_back(3);
 	scores.push_back(4);
